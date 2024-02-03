@@ -16,6 +16,10 @@ body {
   align-items: center;
 }
 
+#audio-chapter {
+  display: none;
+}
+
 button {
   background-color: inherit;
   color: inherit;
