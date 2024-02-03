@@ -9,7 +9,7 @@ let isPlaying = false
 let currentTrackNumber = 1
 
 function playTrack() {
-    audio.src = `/books/dom-casmurro/${currentTrackNumber}.mp3`
+    audio.src = `./books/dom-casmurro/${currentTrackNumber}.mp3`
     btnPlayPauseIcon.classList.remove("bi-play-circle")
     btnPlayPauseIcon.classList.add("bi-pause-circle")
     audio.play()
